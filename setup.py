@@ -4,9 +4,9 @@
 
 from setuptools import setup
 
-DESCRIPTION = "pytorch As-Rigid-As-Possible loss function"
-NAME = 'pytorch_arap_simple'
-VERSION = "0.1.0"
+DESCRIPTION = "ARAP loss function"
+NAME = 'pytorch_arap'
+VERSION = "0.1.1"
 PYTHON_REQUIRES = ">=3.6"
 
 INSTALL_REQUIRES = [
