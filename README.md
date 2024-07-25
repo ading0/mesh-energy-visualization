@@ -3,7 +3,7 @@
 As-Rigid-As-Possible Energy implementation (Sorkine and Alexa, 2007) and Maya plugin.
 For testing/experimentation purposes.
 
-## Usage
+## Usage (in Python)
 
 ```python
 from arap import ARAPEnergy
@@ -14,3 +14,5 @@ from arap import ARAPEnergy
 loss_fn = ARAPEnergy(V, F)
 loss = loss_fn(V_deformed)
 ```
+
+For the Maya plugin, the dependencies have to be installed into the Maya Python executable; an ARAP MPxNode can be created after that.
